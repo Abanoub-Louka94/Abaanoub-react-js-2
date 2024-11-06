@@ -12,10 +12,10 @@ const person = {
     }
 };
 
-export default function TodoList() {
+export default function SecondTodoList() {
     return (
         <div style={person.theme}>
-            <h1>{person}'s Todos</h1>
+            <h1>{person.name}'s Todos</h1>
             <img
                 className="avatar"
                 src="https://i.imgur.com/7vQD0fPs.jpg"

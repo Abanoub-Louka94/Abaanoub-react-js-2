@@ -28,13 +28,13 @@ const person = {
     }
 };
 
-export default function TodoList() {
+export default function ThirdTodoList() {
     return (
         <div style={person.theme}>
             <h1>{person.name}'s Todos</h1>
             <img
                 className="avatar"
-                src="{baseUrl}{person.imageId}{person.imageSize}.jpg"
+                src={`${baseUrl}${person.imageId}${person.imageSize}.jpg`}
                 alt={person.name}
             />
             <ul>

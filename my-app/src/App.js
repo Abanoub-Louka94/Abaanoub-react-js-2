@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import TodoList from "./Challenges/Challenge-1";
+import SecondTodoList from "./Challenges/Challenge-2";
+import ThirdTodoList from "./Challenges/Challenge-3";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+export  default function MyApp(){
+    return (
+        <div>
+            <div className="challenge-1">
+                <TodoList />
+            </div>
+            <div className="challenge-2">
+                <SecondTodoList />
+            </div>
+            <div className="challenge-3">
+                <ThirdTodoList />
+            </div>
+        </div>
+    )
 }
-
-export default App;
